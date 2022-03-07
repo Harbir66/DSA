@@ -1,0 +1,5 @@
+Find Duplicate   - https://leetcode.com/problems/find-the-duplicate-number/submissions/
+Merge Interval   - https://leetcode.com/problems/merge-intervals/submissions/
+Next interval    - https://leetcode.com/problems/next-permutation/submissions/
+best time stocks - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/
+Majority Element - https://leetcode.com/problems/majority-element-ii/submissions/
