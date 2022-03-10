@@ -1,1 +1,2 @@
 001 https://leetcode.com/problems/reverse-string/
+006 https://leetcode.com/problems/count-and-say/
