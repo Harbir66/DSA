@@ -1,4 +1,4 @@
-// 004 https://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other/   4294967295
+// 004 https://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other/   
 
 
 #include<iostream>
@@ -26,7 +26,7 @@ int main(){
     getline(cin,a);
     getline(cin,b);
     bool ans=isRotation(a,b);
-    cout<<string::npos<<endl;
+    // cout<<string::npos<<endl;
     cout<<ans;
 
     return 0;
