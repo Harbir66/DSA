@@ -1,4 +1,4 @@
-## Question : https://practice.geeksforgeeks.org/problems/palindrome-string0817/1
+//A Question : https://practice.geeksforgeeks.org/problems/palindrome-string0817/1
 
 
 // { Driver Code Starts
