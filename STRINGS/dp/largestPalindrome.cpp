@@ -1,20 +1,19 @@
-// Q https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/dynamic-programming/cpss-official/ojquestion
+//  Q https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/dynamic-programming/lpss-official/ojquestion
 
 #include<bits/stdc++.h>
 
 using namespace std;
 
-int countPalin(string s){
+int largestPalin(string s){
     int n=s.size();
     bool dp[n][n]={0};
-    // // memset(dp,false);
     // for(int i=0;i<n;i++){
     //     for(int j=0;j<n;j++){
     //         cout<<dp[i][j]<<" ";
     //     }
     //     cout<<endl;
     // }
-    int count=0;
+    int len;
     for(int gap=0;gap<n;gap++){
         for(int i=0;i+gap<n;i++){
             int j=i+gap;
@@ -27,17 +26,19 @@ int countPalin(string s){
             else{
                 dp[i][j]=(s[i]==s[j]&&dp[i+1][j-1]==1)?1:0;
             }
-        if(dp[i][j]==1)count++;
+        if(dp[i][j]==1){
+            len=gap+1;
+        }
         }
     }
-    return count;
+    return len;
 }
 
 int main(){
     string s;
     cin>>s;
 
-    int count=countPalin(s);
-    cout<<count;
+    int len=largestPalin(s);
+    cout<<len;
     return 0;
 }
