@@ -1,3 +1,5 @@
+//   https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+// More optimized approach in term of memory https://www.geeksforgeeks.org/longest-palindromic-substring-set-2/
 // { Driver Code Starts
 #include<bits/stdc++.h>
 using namespace std;
